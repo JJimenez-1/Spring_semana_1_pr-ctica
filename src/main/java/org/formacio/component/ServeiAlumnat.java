@@ -35,4 +35,8 @@ public class ServeiAlumnat {
 		}
 	}
 	
+	public int devolverNumeroAlumnos() {
+		return repositorio.llistaAlumnes().size();
+	}
+	
 }
